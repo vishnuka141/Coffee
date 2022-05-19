@@ -1,0 +1,376 @@
+body{
+    margin: 0;
+}
+.banner{
+    background-image: url('https://airwallpaper.com/wp-content/uploads/wall003/Backgrounds-Coffee-scaled.jpg');
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+}
+.inner-banner{
+    background-color: #000000ab;
+    width: 100%;
+    /* height: 750px; */
+    height: 607px;
+    padding-top: 145px;
+}
+.nav_{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #8080801f;
+    position: fixed;
+}
+.nav_ li a{
+    text-decoration: none;
+    color: #be8a60;
+}
+.nav_2{
+    display: none ;
+}
+.nav_2 li{
+    display: none ;
+    
+}
+
+.nav_ li{
+    /* color: #be8a60; */
+    font-size: 16px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    /* margin-top: 50px; */
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif; 
+}
+.banner h1{
+    /* color: #be8a60; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 57px;
+    margin-left: 101px;
+    /* margin-top: 99px; */
+}
+.banner h3{
+    /* color: #be8a60; */
+    margin-left: 101px;
+    font-family: 'Roboto', sans-serif;
+}
+button.discover{
+    background-color: #be8a60;
+    /* background-color: orangered; */
+    color: #ffff;
+    font-size: 18px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 16px 41px;
+    border-radius: 5px;
+    font-weight: 800;
+    margin-top: 123px;
+    margin-left: 101px;
+}
+.banner h2{
+    font-size: 37px;
+    text-decoration: underline;
+    /* text-decoration-style: wavy; */
+    text-decoration-style: double;
+    text-decoration-color: #be8a60;
+    font-family: 'Lobster', cursive;
+    color: orangered;
+}
+.c-color{
+    /* color: orangered; */
+    color: #be8a60;
+    /* color: #552018; */
+}
+.mleft{
+    margin-left: 71px;
+}
+.mright{
+    margin-right: 71px;
+    margin-left: 42px;
+}
+
+#history{
+    width: 100%;
+    background-color: #b6acac26;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+h3.his{
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: unset;
+    /* margin-left: 500px; */
+    text-align: center;
+    font-family: system-ui;
+}
+#history p{
+    line-height: 32px;
+    margin-top: 0;
+    font-size: 18px;
+    font-family: system-ui;
+}
+#history h3{
+    margin-left: 40px;
+    font-size: 32px;
+}
+.aboutus{
+    color: #be8a60;
+    padding: 15px 38px;
+    border: 2px solid #be8a60;
+    background: white;
+    border-radius: 45px;
+    margin-top: 52px;
+}
+.aboutus:hover{
+    cursor: pointer;
+    background-color: #be8a60;
+    color: white;
+}
+
+.flex_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-around;
+}
+.service-item{
+   border-radius: 4px;
+    /* background-color: #be8a60; */
+    background-image: url('https://st4.depositphotos.com/7756522/i/600/depositphotos_415297814-stock-photo-flat-lay-black-coffee-foam.jpg');
+    background-size: cover;
+     height: 634px;
+    /* height: 432px; */
+    
+}
+.service-item h4{
+    font-size: 24px;
+    color: white;
+    /* background-color: #be8a60b2; */
+    font-family: system-ui;
+    text-align: center;
+    margin: 0;
+}
+.service-item:hover{
+    box-shadow: 1px 2px 10px 4px #be8a60;
+    border-radius: 3px;
+    cursor: pointer;
+}
+p.des{
+    font-size: 15px;
+    font-family: system-ui;
+    color: white;
+    text-align: center;
+}
+a.viewmore{
+    border: none;
+    text-align: center;
+    /* padding: 8px 14px;
+    background-color: orangered; */
+    color: #be8a60;
+    font-weight: 900;
+    margin-left: 133px;
+    text-decoration: none;
+    font-family: system-ui;
+
+}
+a.viewmore:hover{
+    color: white;
+    padding-right: 9px;
+    
+}
+.arrow{
+     color: #be8a60;
+     
+}
+
+/* .menu{
+    width: 100%;
+} */
+.menu1{
+    width: 40%;
+    float: left;
+}
+.menu2{
+    width: 60%;
+    float: left;
+    
+}
+#menu p{
+    font-size: 16px;
+    font-family: 'Oleo Script', cursive;
+    
+}
+#menu p,#menu img{
+    text-align: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menuhover:hover{
+    /* width: 73%; */
+    /* background-color: #be8a6033; */
+    box-shadow: 1px 2px 10px 4px #be8a60;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#menu p:hover,#menu img:hover{
+    color: #be8a60;
+}
+
+.gallery{
+    /* background-color: #b6acac26; */
+    /* background-image: url('https://demo.sun-themes.com/fooday/coffee/wp-content/uploads/sites/2/2017/12/cf-footer-bg.jpg'); */
+    background-size: cover;
+}
+.chef-expert{
+    width: 100%;
+}
+.yvideo{
+    width: 40%;
+    float: left;
+}
+.chef{
+    width: 60%;
+    float: left;
+}
+p.chefquote{
+    border: 3px solid #be8a60;
+    line-height: 35px;
+    text-align: center;
+    width: 36%;
+    padding: 22px 240px;
+    font-family: system-ui;
+    font-style: italic;
+    margin-left: 161px;
+    border-radius: 9px;
+}
+#contact{
+    /* background-color: #be8a60; */
+    background-image: url('https://demo.sun-themes.com/fooday/coffee/wp-content/uploads/sites/2/2017/12/coffee-bg.jpg?id=1050');
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+table{
+    /* border: 2px solid #be8a60; */
+}
+input,select{
+    background-color: rgb(255 255 255 / 13%);
+    /* background-color: rgba(0, 0, 0, 0.377); */
+    width: 354px;
+    height: 49px;
+    margin-left: 65px;
+    border: none;
+    color: #8d8b8b;
+    border-radius: 3px;
+}
+th{
+    font-family: Arial;
+    text-align: unset;
+    padding-left: 65px;
+    font-weight: 200;
+    color: #8d8b8b;
+    
+    
+}
+.mb{
+    margin-bottom: 43px;
+}
+#contact button{
+    background-color: #be8a60;
+    /* background-color: orangered; */
+    color: #ffff;
+    font-size: 18px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 14px 41px;
+    border-radius: 5px;
+    font-weight: 800;   
+}
+#contact button:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #be8a60;
+    border: 2px solid #be8a60;
+}
+
+.subscribe{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    
+}
+.subscribe h4{
+    font-family: 'Oleo Script', cursive;
+    font-size: 24px;
+}
+.sub{
+    width: 225px;
+    padding: 6px 4px;
+    height: 24px;
+    background-color: gainsboro;
+}
+.subscribe button{
+    padding: 7.3px 6px;
+    background-color: gainsboro;
+    border: none;
+}
+
+footer{
+    margin-top: -24px;
+    background-image: url('https://demo.sun-themes.com/fooday/coffee/wp-content/uploads/sites/2/2017/12/cf-footer-bg.jpg');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+footer h4{
+    font-size: 18px;
+    font-family:system-ui ;
+}
+footer p{
+    font-size: 16px;
+    font-family:system-ui ;
+    color: white;
+}
+footer li{
+    list-style: none;
+    font-family:system-ui ;
+    font-size: 15px;
+    color: white;
+}
+.social li{
+    font-size: 20px;
+    font-size: 29px;
+    color: white;
+    display: inline-block;
+    padding-left: 7px;
+    height: 40px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #1e1e1e;
+}
+.social li:hover{
+    /* color: orangered; */
+    font-size: 30px;
+    /* padding-left: 0; */
+    border-radius: 50%;
+    background-color: #be8a60;
+    padding-left: 7px;
+    height: 40px;
+    width: 35px;
+}
+.bottom{
+    background-color: #1e1e1e;
+    height: 30px;
+    text-align: center;
+    color: #5d5d5d;
+    font-size: 14px;
+    padding-top: 7px;
+}
